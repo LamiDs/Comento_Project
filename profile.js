@@ -21,7 +21,7 @@ const modal = `
   </div>
   <div class="modalBtnNav">
     <div class="modalBtn">
-      <a href="#">
+      <a href="https://github.com/LamiDs" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32"
@@ -47,7 +47,7 @@ const modal = `
       </a>
     </div>
     <div class="modalBtn">
-      <a href="#">
+      <a href="https://www.instagram.com/qusrudghks_/" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="1em"
