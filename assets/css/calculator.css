@@ -1,0 +1,66 @@
+@import "./reset.css";
+
+body {
+  background-color: #141a41;
+}
+
+.bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.contents {
+  background-color: #fff;
+  width: 350px;
+  height: 400px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+}
+
+.contents .calculator {
+  text-align: center;
+}
+
+.contents .calculator table {
+  width: 300px;
+  height: 250px;
+  border: 1px solid #000;
+  border-radius: 24px;
+  border-collapse: separate;
+  border-spacing: 5px;
+  background-color: rgb(204, 204, 204);
+}
+
+.contents .calculator table th,
+.contents .calculator table td {
+  border-collapse: separate;
+  border-radius: 24px;
+  border: 1px solid #000;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px;
+}
+
+.contents .calculator table td:hover {
+  background-color: rgb(204, 204, 204);
+  cursor: pointer;
+}
+
+.contents .calculator table th {
+  padding: 0 20px;
+}
+
+.contents .calculator table th input {
+  border: none;
+  width: 100%;
+  text-align: right;
+  cursor: default;
+}
+
+.contents .calculator table th input:focus {
+  outline: none;
+}
