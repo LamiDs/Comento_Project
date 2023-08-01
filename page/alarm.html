@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/alarm.css" />
+    <title>Alarm</title>
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <div class="contentHeader">
+          <div class="battery">
+            <span id="currentBattery"></span>
+            <span>%</span>
+          </div>
+        </div>
+        <div class="mainContent">
+          <div class="time">
+            <h1 id="currentDate"></h1>
+            <div>
+              <span id="currentTime"></span>
+              <span id="apm"></span>
+            </div>
+          </div>
+          <div class="alarmSetter">
+            <div class="timeSetter">
+              <input
+                type="number"
+                max="12"
+                min="0"
+                id="setHour"
+                class="setTime"
+                placeholder="00"
+              />
+              <p>:</p>
+              <input
+                type="number"
+                max="59"
+                min="0"
+                id="setMinute"
+                class="setTime"
+                placeholder="00"
+              />
+            </div>
+            <div class="selectDay">
+              <input type="button" value="AM" class="dayButton" id="setAM" />
+              <input type="button" value="PM" class="dayButton" id="setPM" />
+            </div>
+            <input type="button" value="OK" id="commitAlarm" />
+          </div>
+        </div>
+        <div class="currentAlarm">
+          <h1>Alarm List</h1>
+          <div class="alarmList"></div>
+        </div>
+      </div>
+    </main>
+    <script src="../assets/js/date.js"></script>
+    <script src="../assets/js/alarm.js"></script>
+    <script src="../assets/js/battery.js"></script>
+  </body>
+</html>

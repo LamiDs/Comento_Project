@@ -1,7 +1,7 @@
 @import "./reset.css";
 
 body {
-  background-color: #141a41;
+  background-color: #4682a9;
 }
 
 .bg {
@@ -63,7 +63,7 @@ body {
   display: block;
   padding: 8px 16px;
   border-radius: 30px;
-  background-color: #141a41;
+  background-color: #749bc2;
   color: #fff;
   font-size: 14px;
   font-weight: 400;
