@@ -42,6 +42,13 @@ setHour.addEventListener("change", (event) => {
   }
 });
 
+setMinute.addEventListener("change", (event) => {
+  if (event.target.value > 60 || event.target.value < 0) {
+    alert("잘못된 시간 입니다.");
+    event.target.value = "";
+  }
+});
+
 function setAlarm() {
   let hours = setHour.value;
   let minutes = setMinute.value;
