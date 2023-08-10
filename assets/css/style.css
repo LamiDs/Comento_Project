@@ -86,7 +86,7 @@ body {
 .modalCard {
   padding: 42px;
   width: 420px;
-  height: 400px;
+  min-height: 400px;
   border-radius: 29px;
   background-color: #fff;
 }
@@ -140,6 +140,8 @@ body {
 .modalMain .modalBtnNav {
   display: flex;
   gap: 16px;
+  flex-wrap: wrap;
+  width: 70%;
 }
 
 .modalMain .modalBtnNav .modalBtn a {
