@@ -1,0 +1,96 @@
+@import "./reset.css";
+
+body {
+  width: 100%;
+  background-color: #4682a9;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.content {
+  width: 572px;
+  height: 500px;
+  border-radius: 28px;
+  background-color: #f6f4eb;
+  padding: 45px 80px;
+  margin: 50px auto;
+}
+
+.content h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .inputText {
+  border: 1px solid #d1d1d1;
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 16px;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+.inputGroup {
+  position: relative;
+}
+
+.content .inputText:focus {
+  border: 2px solid #91c8e4;
+  outline: none;
+}
+
+.content .error {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  left: 5px;
+}
+
+.content label {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #8c8c8c;
+}
+
+#meter {
+  appearance: none;
+}
+
+#meter::-webkit-progress-bar {
+  background: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#meter::-webkit-progress-value {
+  border-radius: 10px;
+  background: #5c9dbe;
+}
+
+#submitBtn {
+  width: 100%;
+  padding: 14px 0;
+  margin-top: 24px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #4682a9;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#submitBtn:hover {
+  background-color: #5c9dbe;
+}
